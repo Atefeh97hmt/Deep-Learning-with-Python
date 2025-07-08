@@ -1,47 +1,99 @@
-Deep Learning Python Repository
-Welcome to the Deep Learning Python Repository! This project contains implementations of various deep learning models, including Multi-Layer Perceptrons (MLP), Convolutional Neural Networks (CNN), and Denoising Autoencoders (DAE), with a focus on the MNIST dataset. The code is written in Python and includes Jupyter notebooks (.ipynb) and Python scripts (.py) for easy experimentation and learning.
-Project Overview
-This repository serves as a collection of deep learning models implemented in Python using popular libraries such as TensorFlow, PyTorch, and NumPy. The primary dataset used is MNIST, but the code is structured to be adaptable for other datasets. Key techniques like dropout regularization are included to improve model performance.
-Features
+# Deep Learning Python Repository
 
-Implementation of MLP, CNN, and DAE models.
-Jupyter notebooks for interactive experimentation.
-Modular Python scripts for reusable code.
-Example workflows for training and evaluating models on the MNIST dataset.
-Support for dropout regularization and other deep learning techniques.
+Welcome to the **Deep Learning Python Repository**!  
+This project provides clean and modular implementations of deep learning models — including **Multi-Layer Perceptrons (MLP)**, **Convolutional Neural Networks (CNN)**, and **Denoising Autoencoders (DAE)** — with a focus on the **MNIST** dataset.  
+The codebase is designed using **Python** and includes both **Jupyter Notebooks (`.ipynb`)** and **Python scripts (`.py`)** for flexible usage in experimentation, learning, and extension.
 
-Requirements
-The required dependencies are listed in requirements.txt:
+---
 
-tensorflow>=2.10 or torch>=1.9
+## 📌 Project Overview
+
+This repository showcases core deep learning techniques using libraries like **TensorFlow**, **PyTorch**, and **NumPy**. While the primary dataset used is MNIST, the code is modular and easily adaptable to other datasets.
+
+Key concepts like **dropout regularization**, model evaluation, and visualization are included to enhance understanding and model robustness.
+
+---
+
+## 🚀 Features
+
+- ✅ Implementations of **MLP**, **CNN**, and **DAE** architectures  
+- 🧪 **Jupyter notebooks** for interactive experimentation  
+- 🔁 **Modular Python scripts** for training and evaluation  
+- 🖼️ Preconfigured workflows using the **MNIST** dataset  
+- 🧠 Support for deep learning techniques like **dropout regularization**
+
+---
+
+## 📦 Requirements
+
+To install dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+Contents of `requirements.txt`:
+
+```
+tensorflow>=2.10 OR torch>=1.9
 numpy
 matplotlib
 jupyter
+```
 
-To install the dependencies, run:
-pip install -r requirements.txt
+---
 
-If using Jupyter notebooks, start the Jupyter server:
+## 💻 Usage
+
+### ▶️ Running Jupyter Notebooks
+
+Start the Jupyter server with:
+
+```bash
 jupyter notebook
+```
 
-Usage
+Then open and run any `.ipynb` file to interactively explore and experiment with the models.
 
-Running Notebooks: Open the .ipynb files in Jupyter Notebook to explore the models interactively. Each notebook includes detailed explanations and visualizations.
+### 🖥️ Running Python Scripts
 
-Running Scripts: Use the .py files for command-line execution. For example:
+Use the `.py` files for training/evaluation from the command line. For example:
+
+```bash
 python scripts/train_cnn.py
+```
 
+### 🧪 Training on MNIST
 
-Training on MNIST: The repository includes pre-configured scripts and notebooks for training models on the MNIST dataset. Modify hyperparameters in the scripts or notebooks as needed.
+The project includes ready-to-run notebooks and scripts for training models on the **MNIST** dataset.  
+You can modify hyperparameters such as learning rate, batch size, and number of epochs directly in the code files.
 
+---
 
-Contributing
+## 🤝 Contributing
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit (git commit -m "Add feature").
-Push to the branch (git push origin feature-branch).
-Create a pull request.
+1. Fork the repository  
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Create a pull request
 
-Please ensure your code follows the PEP 8 style guidelines and includes appropriate documentation.
+Please make sure to:
+
+- Follow the **PEP 8** coding style  
+- Include clear documentation and meaningful commit messages
+
+---
+
+**Happy Learning and Experimenting with Deep Learning! 🚀**
