@@ -1,7 +1,7 @@
 # Deep Learning Python Repository
 
 Welcome to the **Deep Learning Python Repository**!  
-This project provides clean and modular implementations of deep learning models — including **Multi-Layer Perceptrons (MLP)**, **Convolutional Neural Networks (CNN)**, and **Denoising Autoencoders (DAE)** — with a focus on the **MNIST** dataset.  
+This project provides clean and modular implementations of deep learning models, including **Multi-Layer Perceptrons (MLP)**, **Convolutional Neural Networks (CNN)**, and **Denoising Autoencoders (DAE)**, with a focus on the **MNIST** dataset.  
 The codebase is designed using **Python** and includes both **Jupyter Notebooks (`.ipynb`)** and **Python scripts (`.py`)** for flexible usage in experimentation, learning, and extension.
 
 
