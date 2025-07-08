@@ -4,7 +4,6 @@ Welcome to the **Deep Learning Python Repository**!
 This project provides clean and modular implementations of deep learning models — including **Multi-Layer Perceptrons (MLP)**, **Convolutional Neural Networks (CNN)**, and **Denoising Autoencoders (DAE)** — with a focus on the **MNIST** dataset.  
 The codebase is designed using **Python** and includes both **Jupyter Notebooks (`.ipynb`)** and **Python scripts (`.py`)** for flexible usage in experimentation, learning, and extension.
 
----
 
 ## 📌 Project Overview
 
@@ -12,7 +11,6 @@ This repository showcases core deep learning techniques using libraries like **T
 
 Key concepts like **dropout regularization**, model evaluation, and visualization are included to enhance understanding and model robustness.
 
----
 
 ## 🚀 Features
 
@@ -22,7 +20,6 @@ Key concepts like **dropout regularization**, model evaluation, and visualizatio
 - 🖼️ Preconfigured workflows using the **MNIST** dataset  
 - 🧠 Support for deep learning techniques like **dropout regularization**
 
----
 
 ## 📦 Requirements
 
@@ -41,7 +38,6 @@ matplotlib
 jupyter
 ```
 
----
 
 ## 💻 Usage
 
@@ -68,7 +64,6 @@ python scripts/train_cnn.py
 The project includes ready-to-run notebooks and scripts for training models on the **MNIST** dataset.  
 You can modify hyperparameters such as learning rate, batch size, and number of epochs directly in the code files.
 
----
 
 ## 🤝 Contributing
 
@@ -94,6 +89,5 @@ Please make sure to:
 - Follow the **PEP 8** coding style  
 - Include clear documentation and meaningful commit messages
 
----
 
 **Happy Learning and Experimenting with Deep Learning! 🚀**
